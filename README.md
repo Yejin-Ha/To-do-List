@@ -185,6 +185,7 @@ class Planner:
 > 실행 결과
 <img src="./img/test01.PNG" width="50%" />
 <img src="./img/test02.PNG" width="50%" />
+<img src="./img/test03.PNG" width="50%" />
  
 <br>
 
