@@ -1,0 +1,13 @@
+C0303: Trailing whitespace (trailing-whitespace) : 불필요한 여백이 존재함.
+W0301: Unnecessary semicolon (unnecessary-semicolon) : 세미클론이 들어감.
+C0114: Missing module docstring (missing-module-docstring) : 주석이 안들어감.
+C0115: Missing class docstring (missing-class-docstring) : 주석이 안들어감.
+C0116: Missing function or method docstring (missing-function-docstring) : 주석이 안들어감.
+W0613: Unused argument 'self' (unused-argument) :  self 앞에 _ 안씀.
+R0201: Method could be a function (no-self-use) : 
+W0201: Attribute 'user_list' defined outside __init__(attribute-defined-outside-init) : 처음 init 부분에 선언을 안함.
+
+
+
+
+
