@@ -97,9 +97,10 @@ class Planner:
 
 **4. Pylint**
 
-<img src="./img/pylint.PNG" width="85%" />
-<img src="./img/pylint2.PNG" width="85%" />                                   
-                      
+
+![1차](https://blogfiles.pstatic.net/MjAyMTA1MjVfMjcy/MDAxNjIxOTIwMTAxODQ0.B-owo9-9q2Fyg95qQOQBct5X9XsvOIw674HUfwQ7Wt8g.hMuTmMNR8WGB82djRBRhZXey5m26m8t_gOugZ5BfzSMg.PNG.gomdorij/pylint.PNG?type=w1)
+![1차](https://blogfiles.pstatic.net/MjAyMTA1MjVfMjg4/MDAxNjIxOTIwMTAxNTgy.TVYrr3ILEYBk4SR0ZgXVzl61Zc3_WSj_QwjO87tigQgg.Z7Ou3HZETR6Pax7Gq8Qd_2GYouMUiTXmEu9-ybHcaScg.PNG.gomdorij/pylint2.PNG?type=w1)
+
                                    
 <br>
 
