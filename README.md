@@ -182,11 +182,15 @@ class Planner:
             print(item)
 
 ```
-
+> 실행 결과
+<img src="./img/test01.PNG" width="50%" />
+<img src="./img/test02.PNG" width="50%" />
+ 
 <br>
 
 ### 6. 추후 보완할 부분
 1. 처음 등록한 유저에게는 todo_list()와 print_list()가 작동하지 않는다.
-2. 하단의 pep8에 규칙 오류에 대한 해결 방법 모색
+2. 날짜를 
+3. 하단의 pep8에 규칙 오류에 대한 해결 방법 모색
   - C0114 : Missing module docstring(missing-module-docstring)
   - R0201 : Method could be a function (no-self-use)
