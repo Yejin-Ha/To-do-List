@@ -91,10 +91,18 @@ class Planner:
 
 
 ### 4. Pylint
-- 처음 코드를 pylint에 대입
- <img src="./img/pylint.PNG" width="75%" />
- <img src="./img/pylint2.PNG" width="75%" />                                   
-- pylint를 따라서 코드를 계속 수정
+> **처음 코드를 pylint에 대입**
+
+  <img src="./img/pylint.PNG" width="75%" />
+  <img src="./img/pylint2.PNG" width="75%" />   
+ 
+- C0303: Trailing whitespace (trailing-whitespace) : 불필요한 여백이 존재
+- W0301: Unnecessary semicolon (unnecessary-semicolon) : 불필요한 세미콜론이 존재
+- C0115: Missing class docstring (missing-class-docstring) : class에 대한 docstring이 생략된 경우
+- C0116: Missing function or method docstring (missing-function-docstring) : method에 대한 docstring이 생략된 경우
+- W0613: Unused argument 'self' (unused-argument) :  self 앞에 \_이 생략된 경우
+- W0201: Attribute 'user_list' defined outside __init__(attribute-defined-outside-init) : 처음 init 부분에 선언을 안한 경우
+> **pylint를 따라서 코드를 계속 수정**
  <img src="./img/pylint3.PNG" width="75%" />
 <br>
 
@@ -176,6 +184,6 @@ class Planner:
 
 ### 6. 추후 보완할 부분
 1. 처음 등록한 유저에게는 todo_list()와 print_list()가 작동하지 않는다.
-2. pylint에서 두가지에 대한 
- - C0114 : Missing module docstring(missing-module-docstring)
- - R0201 : Method could be a function (no-self-use)
+2. 하단의 pep8에 규칙 오류에 대한 해결 방법 모색
+  - C0114 : Missing module docstring(missing-module-docstring)
+  - R0201 : Method could be a function (no-self-use)
