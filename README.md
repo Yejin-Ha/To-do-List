@@ -89,6 +89,7 @@ class Planner:
 
  ```
 
+<br>
 
 ### 4. Pylint
 > **처음 코드를 pylint에 대입**
@@ -181,6 +182,8 @@ class Planner:
             print(item)
 
 ```
+
+<br>
 
 ### 6. 추후 보완할 부분
 1. 처음 등록한 유저에게는 todo_list()와 print_list()가 작동하지 않는다.
