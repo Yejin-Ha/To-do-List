@@ -97,7 +97,11 @@ class Planner:
 
 **4. Pylint**
 
-(img src="https://blogfiles.pstatic.net/MjAyMTA1MjVfMjcy/MDAxNjIxOTIwMTAxODQ0.B-owo9-9q2Fyg95qQOQBct5X9XsvOIw674HUfwQ7Wt8g.hMuTmMNR8WGB82djRBRhZXey5m26m8t_gOugZ5BfzSMg.PNG.gomdorij/pylint.PNG?type=w1" width="40%)
+
+<img src="./img/pylint.png" width="200px" />
+                                   
+                        
+                                   
 <br>
 
 **5. 최총 Code 실행 결과**
