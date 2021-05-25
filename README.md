@@ -4,7 +4,7 @@
 <br>
 
 ## :white_check_mark: Index
-**1. 주제선정 이유**
+### 1. 주제선정 이유
 
 &nbsp; &nbsp; : Step13 수업까지 들으며 일상생활속에서 자주 쓰이는 To-do list를 구현하는 프로그램을 만들 수 있을 것 같다는 생각이 들어
 
@@ -12,8 +12,7 @@
  
 <br> 
  
-**2. 기능구현**
-
+### 2. 기능구현
 - 등록된 유저인지 체크
  
 - 유저등록
@@ -24,9 +23,7 @@
  
 <br> 
 
-**3. Code**
-
-
+### 3. Code
 ```python
 class Planner:    
     def __init__(self, name):
@@ -90,21 +87,18 @@ class Planner:
         for item in today_list:
             print(item)
 
-
  ```
 
 
-
-**4. Pylint**
-
-<img src="./img/pylint.PNG" width="85%" />
-<img src="./img/pylint2.PNG" width="85%" />                                   
-                      
-                                   
+### 4. Pylint
+- 처음 코드를 pylint에 대입
+ <img src="./img/pylint.PNG" width="75%" />
+ <img src="./img/pylint2.PNG" width="75%" />                                   
+- pylint를 따라서 코드를 계속 수정
+ <img src="./img/pylint3.PNG" width="75%" />
 <br>
 
-**5. 최총 Code 실행 결과**
-
+### 5. 최총 Code 실행 결과
 ```python
 class Planner:
     """
@@ -179,3 +173,9 @@ class Planner:
             print(item)
 
 ```
+
+### 6. 추후 보완할 부분
+1. 처음 등록한 유저에게는 todo_list()와 print_list()가 작동하지 않는다.
+2. pylint에서 두가지에 대한 
+ - C0114 : Missing module docstring(missing-module-docstring)
+ - R0201 : Method could be a function (no-self-use)
