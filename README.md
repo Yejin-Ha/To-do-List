@@ -25,9 +25,6 @@
 
 
 
-
-
-
 **3. Code**
 
 
@@ -78,11 +75,31 @@ class Planner:
         add_list = self.todo_list[:self.today]+ today_list + self.todo_list[self.next:]
         with open(f'./DataBase/Users/{self.name}.txt', 'w', encoding='utf-8') as f:
             f.writelines(add_list) 
+    
+    # 해당 유저의 To-do list 출력
+    def print_list(self, date):
+        with open(f'./DataBase/Users/{self.name}.txt', 'r', encoding='utf-8') as file:
+            self.my_list = file.read().splitlines()
+        
+        for idx in range(len(self.my_list)):
+            if self.my_list[idx].startswith('#'):
+                self.dates.append(idx)
+                if self.my_list[idx].startswith(f'# {date}'):
+                    self.today = idx
+        self.next = self.dates.index(self.today)+1
+        today_list = self.my_list[self.today:self.dates[self.next]]
+        for item in today_list:
+            print(item)
+
+
  ```
 
 
 
 **4. Pylint**
+
+![1차 pep8 이미지](https://blogfiles.pstatic.net/MjAyMTA1MjVfMjcy/MDAxNjIxOTIwMTAxODQ0.B-owo9-9q2Fyg95qQOQBct5X9XsvOIw674HUfwQ7Wt8g.hMuTmMNR8WGB82djRBRhZXey5m26m8t_gOugZ5BfzSMg.PNG.gomdorij/pylint.PNG?type=w1
+
 
 
 **5. 최총 Code 실행 결과**
