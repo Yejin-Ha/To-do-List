@@ -97,10 +97,9 @@ class Planner:
 
 **4. Pylint**
 
-
-<img src="./img/pylint.png" width="200px" />
-                                   
-                        
+<img src="./img/pylint.PNG" width="85%" />
+<img src="./img/pylint2.PNG" width="85%" />                                   
+                      
                                    
 <br>
 
