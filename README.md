@@ -93,7 +93,7 @@ class Planner:
 
  ```
 
-
+<br>
 
 **4. Pylint**
 
