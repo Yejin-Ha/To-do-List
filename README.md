@@ -140,5 +140,42 @@ class Planner:
         유저를 등록합니다.
         """
         input_name = input('이름을 입력하세요 : ')
-        with open('./DataBase/users.txt','a', encoding='utf-8')
+        with open('./DataBase/users.txt','a', encoding='utf-8') as file:
+            file.write('\n'+input_name)
+
+    def todo_list(self, todo, date):
+        """
+        할 일과 날짜를 입력받아서 추가합니다.
+        """
+        with open(f'./DataBase/Users/{self.name}.txt', 'r', encoding='utf-8') as file:
+            self.my_list = file.readlines()
+        for idx in range(len(self.my_list)):
+            if self.my_list[idx].startswith('#'):
+                self.dates.append(idx)
+                if self.my_list[idx].startswith(f'# {date}'):
+                    self.today = idx
+        self.next = self.dates.index(self.today)+1
+        today_list = self.my_list[self.today:self.next]
+        today_list.insert(1, f'- {todo}\n')
+        add_list = self.my_list[:self.today]+ today_list + self.my_list[self.next:]
+        with open(f'./DataBase/Users/{self.name}.txt', 'w', encoding='utf-8') as file:
+            file.writelines(add_list)
+
+    def print_list(self, date):
+        """
+        날짜를 입력받아서 유저의 To-do list를 출력합니다.
+        """
+        with open(f'./DataBase/Users/{self.name}.txt', 'r', encoding='utf-8') as file:
+            self.my_list = file.read().splitlines()
+        
+        for idx in range(len(self.my_list)):
+            if self.my_list[idx].startswith('#'):
+                self.dates.append(idx)
+                if self.my_list[idx].startswith(f'# {date}'):
+                    self.today = idx
+        self.next = self.dates.index(self.today)+1
+        today_list = self.my_list[self.today:self.dates[self.next]]
+        for item in today_list:
+            print(item)
+
 ```
