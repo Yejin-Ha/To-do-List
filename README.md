@@ -1,5 +1,6 @@
 # :memo: To-do list Program 
 **&nbsp; &nbsp; Team : 박철희, 이재선, 장수정, 하예진**
+> Notion 으로 보기 -> [클릭하세요!](https://www.notion.so/To-do-List-Program-32a448bc6c974747b483a3bce01297f1)
 
 <br>
 
